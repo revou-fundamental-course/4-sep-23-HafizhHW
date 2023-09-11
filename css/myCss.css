@@ -1,0 +1,242 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* min-height: 1200px; */
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    background-color: #3144c6;
+}
+
+#hero h1 {
+    font-size: 4rem;
+    color: #fdfbfb;
+}
+
+
+.black-square {
+    margin: 6rem auto;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(242, 242, 242);
+    border-color: black;
+    border: 2px solid;
+}
+
+#desc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#desc h3,
+#rumus {
+    text-align: center;
+}
+
+#rumus {
+    margin-top: -0.5rem;
+    letter-spacing: 0.2rem;
+}
+
+hr {
+    border: 2px solid;
+    border-color: grey;
+}
+
+#hitung {
+    display: flex;
+    flex-direction: column;
+}
+
+#hitung h1 {
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+input {
+    border-radius: 4px;
+    width: 80%;
+    /* width: 40rem; */
+    /* height: 1.8rem; */
+    margin: 1rem auto;
+    outline: none;
+    padding: 10px;
+}
+
+input:focus {
+    border-color: #808ee9;
+}
+
+#hitung p {
+    font-size: 1.2rem;
+}
+
+.btn-hitung {
+    display: flex;
+    justify-content: center;
+    /* margin: 0 auto; */
+    align-items: center;
+    background-color: #3144c6;
+    border: none;
+    border-radius: 5px;
+    width: 6rem;
+    height: 3rem;
+    color: #ecebeb;
+    font-size: 1.6rem;
+}
+
+.btn-hitung:active {
+    transform: translateY(2px);
+}
+
+.btn-hitung:hover {
+    /* background-color: #a3aada; */
+    filter: opacity(50%);
+    color: #ffffff;
+    border: 2px solid;
+    border-color: #3144c6;
+}
+
+.btn-reset {
+    /* float: right; */
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+    justify-content: center;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    width: 6rem;
+    height: 3rem;
+    color: #ecebeb;
+    font-size: 1.6rem;
+}
+
+.btn-reset:active {
+    transform: translateY(2px);
+}
+
+.btn-reset:hover {
+    /* background-color:rgb(249, 195, 95); */
+    filter: opacity(50%);
+    color: #ffffff;
+    border: 2px solid;
+    border-color: orange;
+}
+
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3144c6;
+    height: 100px;
+    width: 100%;
+    color: #fdfbfb;
+    margin-top: 5rem;
+}
+
+#footer h4 {
+    font-size: 2.4rem;
+}
+
+/* Media Query */
+
+/* Laptop */
+@media(max-width: 992px) {
+
+    html {
+        font-size: 75%;
+    }
+
+    .btn-hitung {
+        width: 5rem;
+        height: 2rem;
+        font-size: 1.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 2.3rem;
+    }
+
+    .btn-reset {
+        width: 5rem;
+        height: 2rem;
+        font-size: 1.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 2.3rem;
+    }
+
+}
+
+/* Tablet */
+@media(max-width: 768px) {
+
+    html {
+        font-size: 65%;
+    }
+
+    .btn-hitung {
+        width: 5rem;
+        height: 2rem;
+        font-size: 1.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 2.3rem;
+    }
+
+    .btn-reset {
+        width: 5rem;
+        height: 2rem;
+        font-size: 1.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 2.3rem;
+    }
+
+}
+
+/* Mobile Phone */
+@media(max-width: 576px) {
+
+    html {
+        font-size: 60%;
+    }
+
+    .btn-hitung {
+        width: 5rem;
+        height: 2rem;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+    .btn-reset {
+        width: 5rem;
+        height: 2rem;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+}
