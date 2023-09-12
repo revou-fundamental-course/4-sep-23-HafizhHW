@@ -3,7 +3,7 @@ body {
     /* min-height: 1200px; */
 }
 
-#hero {
+#header {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,7 +12,7 @@ body {
     background-color: #3144c6;
 }
 
-#hero h1 {
+#header h1 {
     font-size: 4rem;
     color: #fdfbfb;
 }

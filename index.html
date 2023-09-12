@@ -11,7 +11,55 @@
 </head>
 
 <body>
-    <section class="hero" id="hero">
+
+    <!-- KELILING PERSEGI -->
+    <section class="header" id="header">
+
+        <h1>Keliling Persegi</h1>
+
+    </section>
+
+    <div class="black-square"></div>
+
+    <section class="" id="desc">
+
+        <h3>Bujur Sangkar</h4>
+            <h4>Rumus Keliling Persegi yaitu :</h4>
+
+            <h4 id="rumus">K=4xS</h4>
+            <p>Di mana :
+                <br>K = Keliling
+                <br>S = Sisi
+            </p>
+
+    </section>
+
+    <hr>
+
+    <section id="hitung">
+
+        <h1>Hitung Keliling Persegi</h1>
+
+        <input type="number" name="" id="panjangKelilingSisi">
+
+        <p>K = 4 x S</p>
+        <p id="kelilingSisi"></p>
+        <p id="hasilKeliling"></p>
+
+
+    </section>
+
+    <section id="button">
+
+        <input type="button" value="Hitung" onclick="hitungKeliling()" class="btn-hitung">
+        <br>
+        <input type="reset" value="Reset" onclick="resetKeliling()" class="btn-reset">
+
+
+    </section>
+
+    <!-- LUAS PERSEGI -->
+    <section class="header" id="header">
 
         <h1>Luas Persegi</h1>
 
@@ -38,11 +86,11 @@
 
         <h1>Hitung Luas Persegi</h1>
 
-        <input type="number" name="" id="panjangSisi">
+        <input type="number" name="" id="panjangLuasSisi">
 
         <p>L = S x S</p>
-        <p id="Sisi"></p>
-        <p id="hasil"></p>
+        <p id="luasSisi"></p>
+        <p id="hasilLuas"></p>
 
 
     </section>
@@ -51,7 +99,7 @@
 
         <input type="button" value="Hitung" onclick="hitungLuas()" class="btn-hitung">
         <br>
-        <input type="reset" value="Reset" onclick="resetNull()" class="btn-reset">
+        <input type="reset" value="Reset" onclick="resetLuas()" class="btn-reset">
 
 
     </section>
