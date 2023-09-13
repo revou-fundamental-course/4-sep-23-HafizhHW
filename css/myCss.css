@@ -17,8 +17,27 @@ body {
     color: #fdfbfb;
 }
 
+.sisi-atas {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 15rem;
+    margin-top: 5rem;
+    margin-bottom: -5rem;
+    margin-left: 14.8rem;
+}
+
+.sisi-bawah {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 15rem;
+    margin-top: -5rem;
+    margin-bottom: -5rem;
+    margin-left: 14.8rem;
+}
 
 .black-square {
+    display: flex;
+    justify-content: center;
     margin: 6rem auto;
     height: 150px;
     width: 150px;
@@ -28,6 +47,7 @@ body {
 }
 
 #desc {
+    margin-top: 10rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
